@@ -2,61 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Primeiros passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <h1 id="inicio">Primeiros passos com HTML</h1>
+    <hr>
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História da <i>web</i></a></li>
+        <ul>
+            <li><a href="#primeiros">Primeiros computadores</a></li>
+            <li><a href="#surgiu">Como surgiu a <i>internet</i></a></li>
+        </ul>
+        <li><a href="#clients">O que são <i>clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>servers</i>?</a></li>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="historia">História da <i>web</i></h2>
+    <h3 id="primeiros"><strong><u>Primeiros computadores</u></strong></h3>
+    <h4><i><u>1ª geração (1940 a 1957)</u></i></h4>
+    <p>Os computadores dessa geração possuíam somente o nível de linguagem de máquina e o da lógica digital:</p>
+    <ul>
+        <li>MARK 1 (1944);</li>
+        <li>ENIAC (1946);</li>
+        <li>EDVAC (1946);</li>
+        <li>TRANSISTOR (1947);</li>
+        <li>LEO (1951);</li>
+        <li>WHIRLWIND (1953);</li>
+        <li>TRADIC (1955).</li>
+    </ul>
+    <h4><i><u>2ª geração (1958 a 1964)</u></i></h4>
+    <p>Primeiros computadores com a tecnologia do transistor:</p>
+    <ul>
+        <li>circuito integrado (1958);</li>
+        <li>PDP-1 (1960);</li>
+        <li>ATLAS (1962).</li>
+    </ul>
+    <h4><i><u>3ª geração (1965 a 1971)</u></i></h4>
+    <p>Computadores mais rápidos por conta dos circuitos integrados, sistemas operacionais e linguagens de programação:</p>
+    <ul>
+        <li>PDP-8 (1965);</li>
+        <li>SYSTEM 360 (1965);</li>
+        <li>MOUSE (1968);</li>
+        <li>microprocessador (1971).</li>
+    </ul>
+    <h4><i><u>4ª geração (a partir de 1972)</u></i></h4>
+    <p>Início das tecnologias LSI, VSLI e ULSI, que abrigam milhões de componentes eletrônicos em um pequeno espaço de chip:</p>
+    <ul>
+        <li>ALTAIR 8800 (1974);</li>
+        <li>Microsoft (1975);</li>
+        <li>Apple II (1977);</li>
+        <li>disquete de 31/2 (1981);</li>
+        <li>IBM-PC (1981);</li>
+        <li>XEROX 8010 (1981);</li>
+        <li>OSBORNE (1981);</li>
+        <li>WORD (1983);</li>
+        <li>MACINTOSH (1984);</li>
+        <li>impressora à laser (1984);</li>
+        <li>Windows (1984);</li>
+        <li>CD-ROM (1985);</li>
+        <li>DESKPRO 386 (1986);</li>
+        <li>internet (1990).</li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h3 id="surgiu"><strong><u>Como surgiu a internet</u></strong></h3>
+    <p>A internet surgiu a partir de pesquisas militares no auge da Guerra Fria. Neste contexto,  qualquer inovação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela União Soviética e pelos Estados Unidos: as duas superpotências compreendiam a eficácia e a necessidade absoluta dos meios de comunicação.
+    </p>
+    <p>Nessa perspectiva, o governo dos Estados Unidos temia um ataque russo às bases militares. Um ataque poderia trazer a público informações sigilosas, tornando os EUA vulneráveis. Então foi idealizado um modelo de troca e compartilhamento de informações que permitisse a descentralização das mesmas. Assim, se o Pentágono fosse atingido, as informações armazenadas ali não estariam perdidas. Era preciso, portanto, criar uma rede, a ARPANET.
+    </p>
+    <p>A ARPANET funcionava através de um sistema conhecido como chaveamento de pacotes, que é um sistema de transmissão de dados em rede de computadores no qual as informações são divididas em pequenos pacotes, que por sua vez contém trecho dos dados, o endereço do destinatário e informações que permitiam a remontagem da mensagem original.
+    </p>
+    <p>Em 29 de Outubro de 1969 ocorreu a transmissão do que pode ser considerado o primeiro E-mail da história. O texto desse primeiro e-mail seria "LOGIN", mas o computador que recebia a mensagem, parou de funcionar após receber a letra "O".
+    </p>
+    <p>O cientista Tim Berners-Lee, do CERN, criou a World Wide Web em 1992.
+    </p>
+    <p>A empresa norte-americana Netscape criou o protocolo <abbr title="HyperText Transfer Protocol Secure">HTTPS</abbr>, possibilitando o envio de dados criptografados para transações comercias pela internet.</p>
+    <hr>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>clients</i>?</h2>
+    <p>É o cliente quem sempre inicia a comunicação com o servidor.
+    </p>
+    <p>O cliente mais conhecido é o navegador.
+    </p>
+    <p>Quando acessamos um site pelo navegador, uma requisição é disparada pela internet para o computador no qual esse site está hospedado.
+    </p>
+    <p>Chamamos as aplicações que agem em nome do usuário, assim como o navegador, de user-agent. 
+    </p>
+    <p>Após enviar uma requisição, o user-agent aguarda até que haja uma resposta do servidor e então a comunicação se encerra.
+    </p>
+    <p>Para obter um novo recurso do servidor o cliente deve iniciar uma nova requisição.</p>
+    <hr>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>servers</i>?</h2>
+    <p>O papel do servidor web é receber uma requisição e devolver uma resposta para o cliente.
+    </p>
+    <p>Geralmente o servidor não envia dados se o cliente não disparar primeiro uma requisição.
+    </p>
+    <p>O servidor é um ou mais computadores com um único endereço. Nestes computadores podem ser hospedados documentos, imagens, áudio, vídeo, etc.
+    </p>
+    <p>Geralmente o servidor também hospeda programas que atendem as requisições dos clientes e as processam. Chamamos esses programas de web server, ou servidor web.
+    </p>
+    <p>É com um web server que nos comunicamos, sendo o computador no qual ele está instalado parte da infraestrutura que o conecta a internet.
+    </p>
+    <p>O web server geralmente é capaz de executar aplicações escritas em linguagens como PHP, C#, Java, etc. </p>
+    <hr>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="estrutura">Estrutura básica do HTML</h2>
+    <p>Elementos individuais são combinados para formar uma página HTML inteira:</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><code>!DOCTYPE html</code>: é a parte inicial obrigatória do documento;</li>
+        <li><code>html</code>: envolve todo o conteúdo da página;</li>
+        <li><code>head</code>: age como um recipiente de tudo o que você deseja incluir em uma página HTML que não é o conteúdo que você quer mostrar para quem vê sua página;</li>
+        <li><code>meta charset="utf-8"</code>: define o conjunto de caracteres que seu documento deve usar para o UTF-8, que inclui praticamente todos os caracteres da grande maioria dos idiomas escritos;</li>
+        <li><code>title</code>: define o título da sua página, que é o título que aparece na guia do navegador onde sua página é carregada;</li>
+        <li><code>body</code>: contém o conteúdo que você quer mostrar ao público que visita sua página, seja texto, imagens, vídeos, jogos, faixas de áudio reproduzíveis ou qualquer outra coisa.</li>
     </ul>
+    <hr>
 
+    <h2 id="referencias">Referências</h2>
+    <ul>
+        <li><a href="dio.me">DIO</a></li>
+        <li><a href="https://developer.mozilla.org/">MDN</a></li>
+        <li><a href="https://blog.certisign.com.br/">Blog Certisign</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/">Wikipedia</a></li>
+        <li><a href="https://www.devmedia.com.br/">Dev Media</a></li>
+    </ul>
+    <hr>
+
+    <small><a href="#inicio">Voltar ao início</a></small>
 </body>
 </html>
